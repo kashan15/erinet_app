@@ -46,7 +46,7 @@ class AboutScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  const Icon(Icons.whatsapp),
+                  const Icon(Icons.whatshot_outlined),
                   width(10),
                   Text(
                     connectUsSUtil,

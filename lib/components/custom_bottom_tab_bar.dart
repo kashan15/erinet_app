@@ -1,4 +1,3 @@
-import 'package:badges/badges.dart';
 import 'package:erinet_app/controller/pending_controller.dart';
 import 'package:erinet_app/utils/storage_utils.dart';
 import 'package:flutter/material.dart';
@@ -111,7 +110,7 @@ class _CustomBottomTabBarState extends State<CustomBottomTabBar> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Badge(
-            showBadge: showBadge,
+            //showBadge: showBadge,
             child: Icon(
               image,
               color: textGreyColor, //iconColor,

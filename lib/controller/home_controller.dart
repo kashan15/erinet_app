@@ -41,6 +41,8 @@ class HomeController extends GetxController {
 
   TextEditingController callEditingController = TextEditingController();
 
+  TextEditingController mobileNumberController = TextEditingController();
+
   final LayerLink layerLink = LayerLink();
 
   Future<bool> onDashboardBack() async {

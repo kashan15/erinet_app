@@ -127,7 +127,7 @@ Widget circleAvatar({
                 ? Border.all(
                 color: borderColor ?? primaryColorSwatch,
                 width: 2,
-                strokeAlign: StrokeAlign.outside)
+                strokeAlign: BorderSide.strokeAlignOutside)
                 : null,
             boxShadow: shadow
                 ? [

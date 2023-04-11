@@ -1,0 +1,195 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.erinet.erinet_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\debug\AndroidManifest.xml:7:5-66
+15-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\debug\AndroidManifest.xml:7:22-64
+16    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+16-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+16-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-66
+17-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-63
+18    <uses-permission android:name="android.permission.WAKE_LOCK" />
+18-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-68
+18-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-65
+19
+20    <permission
+20-->[androidx.core:core:1.9.0] C:\Users\Flutter\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+21        android:name="com.erinet.erinet_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.9.0] C:\Users\Flutter\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.9.0] C:\Users\Flutter\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.erinet.erinet_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.9.0] C:\Users\Flutter\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.9.0] C:\Users\Flutter\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+25
+26    <application
+27        android:name="android.app.Application"
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.9.0] C:\Users\Flutter\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+31        android:label="erinet_app" >
+32        <activity
+33            android:name="com.erinet.erinet_app.MainActivity"
+34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+35            android:exported="true"
+36            android:hardwareAccelerated="true"
+37            android:launchMode="singleTop"
+38            android:theme="@style/LaunchTheme"
+39            android:windowSoftInputMode="adjustResize" >
+40
+41            <!--
+42                 Specifies an Android theme to apply to this Activity as soon as
+43                 the Android process has started. This theme is visible to the user
+44                 while the Flutter UI initializes. After that, this theme continues
+45                 to determine the Window background behind the Flutter UI.
+46            -->
+47            <meta-data
+48                android:name="io.flutter.embedding.android.NormalTheme"
+49                android:resource="@style/NormalTheme" />
+50
+51            <intent-filter>
+52                <action android:name="android.intent.action.MAIN" />
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+55            </intent-filter>
+56        </activity>
+57        <!--
+58             Don't delete the meta-data below.
+59             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+60        -->
+61        <meta-data
+62            android:name="flutterEmbedding"
+63            android:value="2" />
+64
+65        <provider
+65-->[:image_picker_android] C:\Users\Flutter\Documents\GitHub\erinet_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+66            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+66-->[:image_picker_android] C:\Users\Flutter\Documents\GitHub\erinet_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
+67            android:authorities="com.erinet.erinet_app.flutter.image_provider"
+67-->[:image_picker_android] C:\Users\Flutter\Documents\GitHub\erinet_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+68            android:exported="false"
+68-->[:image_picker_android] C:\Users\Flutter\Documents\GitHub\erinet_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+69            android:grantUriPermissions="true" >
+69-->[:image_picker_android] C:\Users\Flutter\Documents\GitHub\erinet_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+70            <meta-data
+70-->[:image_picker_android] C:\Users\Flutter\Documents\GitHub\erinet_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+71                android:name="android.support.FILE_PROVIDER_PATHS"
+71-->[:image_picker_android] C:\Users\Flutter\Documents\GitHub\erinet_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+72                android:resource="@xml/flutter_image_picker_file_paths" />
+72-->[:image_picker_android] C:\Users\Flutter\Documents\GitHub\erinet_app\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+73        </provider>
+74
+75        <activity
+75-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-29:20
+76            android:name="com.hiennv.flutter_callkit_incoming.CallkitIncomingActivity"
+76-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-87
+77            android:excludeFromRecents="true"
+77-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-46
+78            android:exported="true"
+78-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-36
+79            android:launchMode="singleTask"
+79-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-44
+80            android:screenOrientation="portrait"
+80-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-49
+81            android:showOnLockScreen="true"
+81-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-44
+82            android:theme="@style/CallkitIncomingTheme"
+82-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-56
+83            android:turnScreenOn="true" >
+83-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-40
+84            <intent-filter>
+84-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-28:29
+85                <action android:name="com.erinet.erinet_app.com.hiennv.flutter_callkit_incoming.ACTION_CALL_INCOMING" />
+85-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-116
+85-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:25:25-113
+86
+87                <category android:name="android.intent.category.DEFAULT" />
+87-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:27:17-76
+87-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:27:27-73
+88            </intent-filter>
+89        </activity>
+90        <activity
+90-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:30:9-33:55
+91            android:name="com.hiennv.flutter_callkit_incoming.TransparentActivity"
+91-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-83
+92            android:exported="false"
+92-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-37
+93            android:theme="@style/TranslucentTheme" />
+93-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-52
+94
+95        <receiver
+95-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:35:9-46:20
+96            android:name="com.hiennv.flutter_callkit_incoming.CallkitIncomingBroadcastReceiver"
+96-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-96
+97            android:enabled="true"
+97-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-35
+98            android:exported="true" >
+98-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-36
+99            <intent-filter>
+99-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-45:29
+100                <action android:name="com.erinet.erinet_app.com.hiennv.flutter_callkit_incoming.ACTION_CALL_INCOMING" />
+100-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-116
+100-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:25:25-113
+101                <action android:name="com.erinet.erinet_app.com.hiennv.flutter_callkit_incoming.ACTION_CALL_ACCEPT" />
+101-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:41:17-114
+101-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:41:25-111
+102                <action android:name="com.erinet.erinet_app.com.hiennv.flutter_callkit_incoming.ACTION_CALL_DECLINE" />
+102-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:42:17-115
+102-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:42:25-112
+103                <action android:name="com.erinet.erinet_app.com.hiennv.flutter_callkit_incoming.ACTION_CALL_ENDED" />
+103-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:43:17-113
+103-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:43:25-110
+104                <action android:name="com.erinet.erinet_app.com.hiennv.flutter_callkit_incoming.ACTION_CALL_TIMEOUT" />
+104-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:44:17-115
+104-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:44:25-112
+105            </intent-filter>
+106        </receiver>
+107
+108        <service
+108-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:48:9-51:39
+109            android:name="com.hiennv.flutter_callkit_incoming.CallkitSoundPlayerService"
+109-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-89
+110            android:enabled="true"
+110-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:50:13-35
+111            android:exported="true" />
+111-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:51:13-36
+112
+113        <uses-library
+113-->[androidx.window:window:1.0.0-beta04] C:\Users\Flutter\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+114            android:name="androidx.window.extensions"
+114-->[androidx.window:window:1.0.0-beta04] C:\Users\Flutter\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+115            android:required="false" />
+115-->[androidx.window:window:1.0.0-beta04] C:\Users\Flutter\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+116        <uses-library
+116-->[androidx.window:window:1.0.0-beta04] C:\Users\Flutter\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+117            android:name="androidx.window.sidecar"
+117-->[androidx.window:window:1.0.0-beta04] C:\Users\Flutter\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+118            android:required="false" />
+118-->[androidx.window:window:1.0.0-beta04] C:\Users\Flutter\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+119
+120        <provider
+120-->[com.squareup.picasso:picasso:2.71828] C:\Users\Flutter\.gradle\caches\transforms-3\63fb1ae70a57046a7fd1d831b7f66a7f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+121            android:name="com.squareup.picasso.PicassoProvider"
+121-->[com.squareup.picasso:picasso:2.71828] C:\Users\Flutter\.gradle\caches\transforms-3\63fb1ae70a57046a7fd1d831b7f66a7f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+122            android:authorities="com.erinet.erinet_app.com.squareup.picasso"
+122-->[com.squareup.picasso:picasso:2.71828] C:\Users\Flutter\.gradle\caches\transforms-3\63fb1ae70a57046a7fd1d831b7f66a7f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+123            android:exported="false" />
+123-->[com.squareup.picasso:picasso:2.71828] C:\Users\Flutter\.gradle\caches\transforms-3\63fb1ae70a57046a7fd1d831b7f66a7f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+124    </application>
+125
+126</manifest>

@@ -100,6 +100,7 @@ class HomeScreen extends GetView<HomeController> {
           validator: InputValidations.commonValidation,
           label: enterPhoneSUtil,
           borderColor: textWhiteColor,
+          controller: controller.mobileNumberController,
           style: const TextStyle(color: textWhiteColor),
           textInputAction: TextInputAction.next,
           keyboardType: TextInputType.phone,

@@ -1,3 +1,6 @@
+import 'package:erinet_app/controller/home_controller.dart';
+import 'package:flutter_phone_direct_caller/flutter_phone_direct_caller.dart';
+
 import '../components/custom_app_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -14,6 +17,8 @@ import '../utils/textStyles.dart';
 class AvailableAgentsScreen extends StatelessWidget {
   AvailableAgentsScreen({Key? key}) : super(key: key);
   final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
+
+  HomeController myHomeController = HomeController();
 
   @override
   Widget build(BuildContext context) {
@@ -59,7 +64,10 @@ class AvailableAgentsScreen extends StatelessWidget {
                       primaryLabel: selectSUtil,
                       totalRating: 4.5,
                       ratingCount: 25,
-                      primaryOnTap: () => Get.dialog(AlertOverlay(
+                      primaryOnTap: () =>
+                          //FlutterPhoneDirectCaller.callNumber('${myHomeController.mobileNumberController}')
+
+                      Get.dialog(AlertOverlay(
                             icon: Icons.notifications_none,
                             primaryLabel: okSUtil,
                             primaryTap: () {
@@ -67,10 +75,11 @@ class AvailableAgentsScreen extends StatelessWidget {
                               Get.toNamed(kChatScreen);
                             },
                             label: agentWillConnectSUtil,
-                          )
-                              // onPressed: ()=> Get.toNamed(kChatScreen),
+
+                              //onPressed: ()=> Get.toNamed(kChatScreen),
+
                               )),
-                );
+                ));
               }),
         ),
         // _agentBox()
