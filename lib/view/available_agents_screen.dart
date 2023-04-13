@@ -66,7 +66,6 @@ class AvailableAgentsScreen extends StatelessWidget {
                       ratingCount: 25,
                       primaryOnTap: () =>
                           //FlutterPhoneDirectCaller.callNumber('${myHomeController.mobileNumberController}')
-
                       Get.dialog(AlertOverlay(
                             icon: Icons.notifications_none,
                             primaryLabel: okSUtil,

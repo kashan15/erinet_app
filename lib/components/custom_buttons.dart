@@ -1,3 +1,7 @@
+import 'dart:ffi';
+
+import 'package:get/get_rx/src/rx_typedefs/rx_typedefs.dart';
+
 import '../utils/colors_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -16,7 +20,7 @@ class Button extends StatelessWidget {
   Color? color;
   double fontSize;
   FontWeight fontWeight;
-  VoidCallback? onPressed;
+  final VoidCallback? onPressed;
   Color? fontColor;
   double elevation;
   Color shadowColor;
