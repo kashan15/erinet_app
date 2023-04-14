@@ -18,11 +18,35 @@ import '../utils/string_utils.dart';
 
 final String localUserID = math.Random().nextInt(10000).toString();
 
+// create a user
+ZegoUser user = ZegoUser.id('user1');
+
+// set the token
+
+
 class StartConnectingCallScreen extends StatelessWidget {
   StartConnectingCallScreen({Key? key}) : super(key: key);
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
 
   final callingId = TextEditingController();
+
+
+  // ZegoEngineProfile profile = ZegoEngineProfile(
+  //   1705018243,
+  //   ZegoScenario.Default, // General scenario
+  //   appSign: '0ff8679274cce78292ae930172eccd8e0587ee66169b54fafdf609daac6b1b38',
+  // );
+  //
+  // ZegoExpressEngine instance1 = ZegoExpressEngine.instance;
+  //
+  // ZegoUser user = ZegoUser.id('user1');
+  //
+  // ZegoRoomConfig config = ZegoRoomConfig.defaultConfig();
+  //
+  // CallingFunction()  {
+  //   config.isUserStatusNotify = true;
+  //   ZegoExpressEngine.instance.loginRoom('room1', user, config: config);
+  // }
 
 
   @override
@@ -62,35 +86,22 @@ class StartConnectingCallScreen extends StatelessWidget {
   _body() {
     return Column(
       children: [
+        height(80),
         _form(Assets.userProfileIcon, enterReceiverNoSUtil),
-        height(30),
+        //height(30),
 
         // _form(Assets.userProfileIcon, enterDialerNoSUtil),
         // height(30),
-
-        // TextButton(
-        //     onPressed: (){},
-        //     child: Center(
-        //       child: Text("Start Connecting"),
-        //     )
-        // )
+       height(80),
         /// Previous Button
         Button(
             width: Get.width,
             text: startConnectingSUtil,
-            onPressed: () => Get.to(CallPage(callingId: callingId.text.toString()))
+            onPressed: () =>
+          Get.to(CallPage(callingId: callingId.text.toString()))
               //Get.toNamed(kStartCallingScreen)
         ),
 
-        height(60),
-        
-        Button(
-            width: Get.width,
-            text: "Call Via Network",
-            onPressed: () => 
-               FlutterPhoneDirectCaller.callNumber('+923232469200'),
-          //Get.toNamed(kStartCallingScreen)
-        ),
       ],
     );
   }
@@ -114,6 +125,7 @@ class StartConnectingCallScreen extends StatelessWidget {
           controller: callingId
           //TextEditingController(text: "0800222111"),
         ),
+
       ],
     );
   }
@@ -144,3 +156,13 @@ class CallPage extends StatelessWidget {
     );
   }
 }
+
+
+
+
+
+
+
+
+
+

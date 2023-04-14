@@ -1,0 +1,865 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.erinet.erinet_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+11-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:5:5-76
+11-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:5:22-73
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:6:5-71
+12-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:6:22-68
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:7:5-67
+13-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:8:5-79
+14-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:9:5-65
+15-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:9:22-62
+16    <uses-permission android:name="android.permission.BLUETOOTH" />
+16-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:10:5-68
+16-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:10:22-65
+17    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+17-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:11:5-80
+17-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:11:22-77
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:12:5-81
+18-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:12:22-78
+19    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+19-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:13:5-75
+19-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:13:22-72
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:14:5-68
+20-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:14:22-65
+21    <uses-permission android:name="android.permission.VIBRATE" />
+21-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:15:5-65
+21-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:15:22-63
+22    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+22-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-77
+22-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-74
+23    <uses-permission android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS" />
+23-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-89
+23-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-86
+24    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+24-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-81
+24-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-78
+25    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+25-->[:zego_express_engine] C:\Users\Flutter\Documents\GitHub\erinet_app\build\zego_express_engine\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-77
+25-->[:zego_express_engine] C:\Users\Flutter\Documents\GitHub\erinet_app\build\zego_express_engine\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-74
+26    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+26-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-81
+26-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-78
+27    <uses-permission android:name="android.permission.CALL_PHONE" />
+27-->[:flutter_phone_direct_caller] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_phone_direct_caller\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-69
+27-->[:flutter_phone_direct_caller] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_phone_direct_caller\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-66
+28
+29    <uses-feature
+29-->[:flutter_phone_direct_caller] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_phone_direct_caller\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-13:36
+30        android:name="android.hardware.telephony"
+30-->[:flutter_phone_direct_caller] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_phone_direct_caller\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-50
+31        android:required="false" />
+31-->[:flutter_phone_direct_caller] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_phone_direct_caller\intermediates\merged_manifest\release\AndroidManifest.xml:13:9-33
+32
+33    <permission
+33-->[androidx.core:core:1.9.0] C:\Users\Flutter\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+34        android:name="com.erinet.erinet_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+34-->[androidx.core:core:1.9.0] C:\Users\Flutter\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+35        android:protectionLevel="signature" />
+35-->[androidx.core:core:1.9.0] C:\Users\Flutter\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+36
+37    <uses-permission android:name="com.erinet.erinet_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+37-->[androidx.core:core:1.9.0] C:\Users\Flutter\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+37-->[androidx.core:core:1.9.0] C:\Users\Flutter\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+38    <uses-permission android:name="android.permission.GET_TASKS" /> <!-- 华为推送 -->
+38-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:14:5-68
+38-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:14:22-65
+39    <queries>
+39-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:17:5-21:15
+40        <intent>
+40-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:18:9-20:18
+41            <action android:name="com.huawei.hms.core.aidlservice" />
+41-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:19:13-70
+41-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:19:21-67
+42        </intent>
+43    </queries>
+44
+45    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- for android -->
+46    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+47    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+48    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+49    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+50    <!-- for Samsung -->
+51    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+51-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+51-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+52    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+53    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+54    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+55    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+56    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+57    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+58    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+58-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+58-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+59    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+59-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+59-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+60    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+60-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+60-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+61    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+61-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+61-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+62    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+62-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+62-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+63    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+63-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+63-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+64    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+64-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+64-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+65    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+65-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+65-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+66    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+66-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+66-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Flutter\.gradle\caches\transforms-3\e2d62b65ba99af7d59a3315cf4910598\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+67
+68    <application
+69        android:name="android.app.Application"
+69-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:19:9-42
+70        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+70-->[androidx.core:core:1.9.0] C:\Users\Flutter\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+71        android:icon="@mipmap/ic_launcher"
+71-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:20:9-43
+72        android:label="erinet_app" >
+72-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:18:9-35
+73        <activity
+73-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:21:9-42:20
+74            android:name="com.erinet.erinet_app.MainActivity"
+74-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:22:13-41
+75            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+75-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:26:13-163
+76            android:exported="true"
+76-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:23:13-36
+77            android:hardwareAccelerated="true"
+77-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:27:13-47
+78            android:launchMode="singleTop"
+78-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:24:13-43
+79            android:theme="@style/LaunchTheme"
+79-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:25:13-47
+80            android:windowSoftInputMode="adjustResize" >
+80-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:28:13-55
+81
+82            <!--
+83                 Specifies an Android theme to apply to this Activity as soon as
+84                 the Android process has started. This theme is visible to the user
+85                 while the Flutter UI initializes. After that, this theme continues
+86                 to determine the Window background behind the Flutter UI.
+87            -->
+88            <meta-data
+88-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:34:13-37:17
+89                android:name="io.flutter.embedding.android.NormalTheme"
+89-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:35:15-70
+90                android:resource="@style/NormalTheme" />
+90-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:36:15-52
+91
+92            <intent-filter>
+92-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:38:13-41:29
+93                <action android:name="android.intent.action.MAIN" />
+93-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:39:17-68
+93-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:39:25-66
+94
+95                <category android:name="android.intent.category.LAUNCHER" />
+95-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:40:17-76
+95-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:40:27-74
+96            </intent-filter>
+97        </activity>
+98        <!--
+99             Don't delete the meta-data below.
+100             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+101        -->
+102        <meta-data
+102-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:45:9-47:33
+103            android:name="flutterEmbedding"
+103-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:46:13-44
+104            android:value="2" />
+104-->C:\Users\Flutter\Documents\GitHub\erinet_app\android\app\src\main\AndroidManifest.xml:47:13-30
+105
+106        <provider
+106-->[:image_picker_android] C:\Users\Flutter\Documents\GitHub\erinet_app\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-18:20
+107            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+107-->[:image_picker_android] C:\Users\Flutter\Documents\GitHub\erinet_app\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-82
+108            android:authorities="com.erinet.erinet_app.flutter.image_provider"
+108-->[:image_picker_android] C:\Users\Flutter\Documents\GitHub\erinet_app\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-74
+109            android:exported="false"
+109-->[:image_picker_android] C:\Users\Flutter\Documents\GitHub\erinet_app\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+110            android:grantUriPermissions="true" >
+110-->[:image_picker_android] C:\Users\Flutter\Documents\GitHub\erinet_app\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-47
+111            <meta-data
+111-->[:image_picker_android] C:\Users\Flutter\Documents\GitHub\erinet_app\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-17:75
+112                android:name="android.support.FILE_PROVIDER_PATHS"
+112-->[:image_picker_android] C:\Users\Flutter\Documents\GitHub\erinet_app\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-67
+113                android:resource="@xml/flutter_image_picker_file_paths" />
+113-->[:image_picker_android] C:\Users\Flutter\Documents\GitHub\erinet_app\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-72
+114        </provider>
+115
+116        <receiver
+116-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-17:39
+117            android:name="me.carda.awesome_notifications.DartNotificationActionReceiver"
+117-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-89
+118            android:exported="true" />
+118-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-36
+119        <receiver
+119-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-20:39
+120            android:name="me.carda.awesome_notifications.DartDismissedNotificationReceiver"
+120-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-92
+121            android:exported="true" />
+121-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-36
+122        <receiver
+122-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-23:39
+123            android:name="me.carda.awesome_notifications.DartScheduledNotificationReceiver"
+123-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-92
+124            android:exported="true" />
+124-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-36
+125        <receiver
+125-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:24:9-38:20
+126            android:name="me.carda.awesome_notifications.DartRefreshSchedulesReceiver"
+126-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:25:13-87
+127            android:enabled="true"
+127-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-35
+128            android:exported="true" >
+128-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-36
+129            <intent-filter>
+129-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-37:29
+130                <category android:name="android.intent.category.DEFAULT" />
+130-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:29:17-76
+130-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:29:27-73
+131
+132                <action android:name="android.intent.action.BOOT_COMPLETED" />
+132-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:31:17-79
+132-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:31:25-76
+133                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+133-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:32:17-86
+133-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:32:25-83
+134                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+134-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:33:17-84
+134-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:33:25-81
+135                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+135-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:34:17-82
+135-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:34:25-79
+136                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+136-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:35:17-82
+136-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:35:25-79
+137                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+137-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:36:17-107
+137-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:36:25-104
+138            </intent-filter>
+139        </receiver>
+140
+141        <service
+141-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:40:9-43:72
+142            android:name="me.carda.awesome_notifications.DartBackgroundService"
+142-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-80
+143            android:exported="false"
+143-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:42:13-37
+144            android:permission="android.permission.BIND_JOB_SERVICE" />
+144-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-69
+145        <service
+145-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:44:9-49:43
+146            android:name="me.carda.awesome_notifications.core.services.ForegroundService"
+146-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:45:13-90
+147            android:enabled="true"
+147-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-35
+148            android:exported="false"
+148-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-37
+149            android:foregroundServiceType="phoneCall"
+149-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:48:13-54
+150            android:stopWithTask="true" />
+150-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:49:13-40
+151        <service
+151-->[:zego_zpns] C:\Users\Flutter\Documents\GitHub\erinet_app\build\zego_zpns\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:72
+152            android:name="com.example.zego_zpns.internal.utils.ZPNsMessagingBackgroundService"
+152-->[:zego_zpns] C:\Users\Flutter\Documents\GitHub\erinet_app\build\zego_zpns\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-95
+153            android:exported="false"
+153-->[:zego_zpns] C:\Users\Flutter\Documents\GitHub\erinet_app\build\zego_zpns\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+154            android:permission="android.permission.BIND_JOB_SERVICE" />
+154-->[:zego_zpns] C:\Users\Flutter\Documents\GitHub\erinet_app\build\zego_zpns\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-69
+155
+156        <receiver
+156-->[:zego_zpns] C:\Users\Flutter\Documents\GitHub\erinet_app\build\zego_zpns\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-22:20
+157            android:name="com.example.zego_zpns.internal.ZPNsPluginEventHandler"
+157-->[:zego_zpns] C:\Users\Flutter\Documents\GitHub\erinet_app\build\zego_zpns\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-81
+158            android:enabled="true"
+158-->[:zego_zpns] C:\Users\Flutter\Documents\GitHub\erinet_app\build\zego_zpns\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-35
+159            android:exported="true" >
+159-->[:zego_zpns] C:\Users\Flutter\Documents\GitHub\erinet_app\build\zego_zpns\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-36
+160            <intent-filter>
+160-->[:zego_zpns] C:\Users\Flutter\Documents\GitHub\erinet_app\build\zego_zpns\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-21:29
+161                <action android:name="im.zego.zim.zpns.intent.action.MESSAGE" />
+161-->[:zego_zpns] C:\Users\Flutter\Documents\GitHub\erinet_app\build\zego_zpns\intermediates\merged_manifest\release\AndroidManifest.xml:20:17-81
+161-->[:zego_zpns] C:\Users\Flutter\Documents\GitHub\erinet_app\build\zego_zpns\intermediates\merged_manifest\release\AndroidManifest.xml:20:25-78
+162            </intent-filter>
+163        </receiver>
+164
+165        <activity
+165-->[:zego_express_engine] C:\Users\Flutter\Documents\GitHub\erinet_app\build\zego_express_engine\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-17:64
+166            android:name="im.zego.internal.screencapture.ZegoScreenCaptureManager$ZegoScreenCaptureAssistantActivity"
+166-->[:zego_express_engine] C:\Users\Flutter\Documents\GitHub\erinet_app\build\zego_express_engine\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-118
+167            android:configChanges="screenSize|orientation"
+167-->[:zego_express_engine] C:\Users\Flutter\Documents\GitHub\erinet_app\build\zego_express_engine\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-59
+168            android:exported="false"
+168-->[:zego_express_engine] C:\Users\Flutter\Documents\GitHub\erinet_app\build\zego_express_engine\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-37
+169            android:screenOrientation="fullUser"
+169-->[:zego_express_engine] C:\Users\Flutter\Documents\GitHub\erinet_app\build\zego_express_engine\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-49
+170            android:theme="@android:style/Theme.Translucent" />
+170-->[:zego_express_engine] C:\Users\Flutter\Documents\GitHub\erinet_app\build\zego_express_engine\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-61
+171
+172        <service
+172-->[:zego_express_engine] C:\Users\Flutter\Documents\GitHub\erinet_app\build\zego_express_engine\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-27:19
+173            android:name="im.zego.internal.screencapture.ZegoScreenCaptureService"
+173-->[:zego_express_engine] C:\Users\Flutter\Documents\GitHub\erinet_app\build\zego_express_engine\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-83
+174            android:enabled="true"
+174-->[:zego_express_engine] C:\Users\Flutter\Documents\GitHub\erinet_app\build\zego_express_engine\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-35
+175            android:exported="false"
+175-->[:zego_express_engine] C:\Users\Flutter\Documents\GitHub\erinet_app\build\zego_express_engine\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-37
+176            android:foregroundServiceType="mediaProjection" >
+176-->[:zego_express_engine] C:\Users\Flutter\Documents\GitHub\erinet_app\build\zego_express_engine\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-60
+177            <intent-filter>
+177-->[:zego_express_engine] C:\Users\Flutter\Documents\GitHub\erinet_app\build\zego_express_engine\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-26:29
+178                <action android:name="android.intent.action.screenshare" />
+178-->[:zego_express_engine] C:\Users\Flutter\Documents\GitHub\erinet_app\build\zego_express_engine\intermediates\merged_manifest\release\AndroidManifest.xml:25:17-76
+178-->[:zego_express_engine] C:\Users\Flutter\Documents\GitHub\erinet_app\build\zego_express_engine\intermediates\merged_manifest\release\AndroidManifest.xml:25:25-73
+179            </intent-filter>
+180        </service>
+181
+182        <activity
+182-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-29:20
+183            android:name="com.hiennv.flutter_callkit_incoming.CallkitIncomingActivity"
+183-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-87
+184            android:excludeFromRecents="true"
+184-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-46
+185            android:exported="true"
+185-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-36
+186            android:launchMode="singleTask"
+186-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-44
+187            android:screenOrientation="portrait"
+187-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-49
+188            android:showOnLockScreen="true"
+188-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-44
+189            android:theme="@style/CallkitIncomingTheme"
+189-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-56
+190            android:turnScreenOn="true" >
+190-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-40
+191            <intent-filter>
+191-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-28:29
+192                <action android:name="com.erinet.erinet_app.com.hiennv.flutter_callkit_incoming.ACTION_CALL_INCOMING" />
+192-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:25:17-116
+192-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:25:25-113
+193
+194                <category android:name="android.intent.category.DEFAULT" />
+194-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:29:17-76
+194-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:29:27-73
+195            </intent-filter>
+196        </activity>
+197        <activity
+197-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:30:9-33:55
+198            android:name="com.hiennv.flutter_callkit_incoming.TransparentActivity"
+198-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:31:13-83
+199            android:exported="false"
+199-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-37
+200            android:theme="@style/TranslucentTheme" />
+200-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:33:13-52
+201
+202        <receiver
+202-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:35:9-46:20
+203            android:name="com.hiennv.flutter_callkit_incoming.CallkitIncomingBroadcastReceiver"
+203-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:36:13-96
+204            android:enabled="true"
+204-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:37:13-35
+205            android:exported="true" >
+205-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-36
+206            <intent-filter>
+206-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:39:13-45:29
+207                <action android:name="com.erinet.erinet_app.com.hiennv.flutter_callkit_incoming.ACTION_CALL_INCOMING" />
+207-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:25:17-116
+207-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:25:25-113
+208                <action android:name="com.erinet.erinet_app.com.hiennv.flutter_callkit_incoming.ACTION_CALL_ACCEPT" />
+208-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:41:17-114
+208-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:41:25-111
+209                <action android:name="com.erinet.erinet_app.com.hiennv.flutter_callkit_incoming.ACTION_CALL_DECLINE" />
+209-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:42:17-115
+209-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:42:25-112
+210                <action android:name="com.erinet.erinet_app.com.hiennv.flutter_callkit_incoming.ACTION_CALL_ENDED" />
+210-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:43:17-113
+210-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:43:25-110
+211                <action android:name="com.erinet.erinet_app.com.hiennv.flutter_callkit_incoming.ACTION_CALL_TIMEOUT" />
+211-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:44:17-115
+211-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:44:25-112
+212            </intent-filter>
+213        </receiver>
+214
+215        <service
+215-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:48:9-51:39
+216            android:name="com.hiennv.flutter_callkit_incoming.CallkitSoundPlayerService"
+216-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:49:13-89
+217            android:enabled="true"
+217-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:50:13-35
+218            android:exported="true" /> <!-- Mqtt Service -->
+218-->[:flutter_callkit_incoming] C:\Users\Flutter\Documents\GitHub\erinet_app\build\flutter_callkit_incoming\intermediates\merged_manifest\release\AndroidManifest.xml:51:13-36
+219        <service android:name="org.eclipse.paho.android.service.MqttService" />
+219-->[com.github.umair13adil:RxLogs:1.0.18] C:\Users\Flutter\.gradle\caches\transforms-3\d0393b3d49cb86379e024b72d57fca33\transformed\jetified-RxLogs-1.0.18\AndroidManifest.xml:18:9-80
+219-->[com.github.umair13adil:RxLogs:1.0.18] C:\Users\Flutter\.gradle\caches\transforms-3\d0393b3d49cb86379e024b72d57fca33\transformed\jetified-RxLogs-1.0.18\AndroidManifest.xml:18:18-77
+220
+221        <uses-library
+221-->[androidx.window:window:1.0.0-beta04] C:\Users\Flutter\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+222            android:name="androidx.window.extensions"
+222-->[androidx.window:window:1.0.0-beta04] C:\Users\Flutter\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+223            android:required="false" />
+223-->[androidx.window:window:1.0.0-beta04] C:\Users\Flutter\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+224        <uses-library
+224-->[androidx.window:window:1.0.0-beta04] C:\Users\Flutter\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+225            android:name="androidx.window.sidecar"
+225-->[androidx.window:window:1.0.0-beta04] C:\Users\Flutter\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+226            android:required="false" />
+226-->[androidx.window:window:1.0.0-beta04] C:\Users\Flutter\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+227
+228        <provider
+228-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+229            android:name="androidx.startup.InitializationProvider"
+229-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:32:13-67
+230            android:authorities="com.erinet.erinet_app.androidx-startup"
+230-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:33:13-68
+231            android:exported="false" >
+231-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:34:13-37
+232            <meta-data
+232-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+233                android:name="androidx.work.WorkManagerInitializer"
+233-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+234                android:value="androidx.startup" />
+234-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+235            <meta-data
+235-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Flutter\.gradle\caches\transforms-3\9fc546b4b41c30406c1c6f8de93a0c6d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+236                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+236-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Flutter\.gradle\caches\transforms-3\9fc546b4b41c30406c1c6f8de93a0c6d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+237                android:value="androidx.startup" />
+237-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Flutter\.gradle\caches\transforms-3\9fc546b4b41c30406c1c6f8de93a0c6d\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+238            <meta-data
+238-->[androidx.lifecycle:lifecycle-process:2.5.1] C:\Users\Flutter\.gradle\caches\transforms-3\6e7e5a4af4c1efae44af94640b260dad\transformed\jetified-lifecycle-process-2.5.1\AndroidManifest.xml:31:13-33:52
+239                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+239-->[androidx.lifecycle:lifecycle-process:2.5.1] C:\Users\Flutter\.gradle\caches\transforms-3\6e7e5a4af4c1efae44af94640b260dad\transformed\jetified-lifecycle-process-2.5.1\AndroidManifest.xml:32:17-78
+240                android:value="androidx.startup" />
+240-->[androidx.lifecycle:lifecycle-process:2.5.1] C:\Users\Flutter\.gradle\caches\transforms-3\6e7e5a4af4c1efae44af94640b260dad\transformed\jetified-lifecycle-process-2.5.1\AndroidManifest.xml:33:17-49
+241        </provider>
+242
+243        <service
+243-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+244            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+244-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+245            android:directBootAware="false"
+245-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+246            android:enabled="@bool/enable_system_alarm_service_default"
+246-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+247            android:exported="false" />
+247-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+248        <service
+248-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+249            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+249-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+250            android:directBootAware="false"
+250-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+251            android:enabled="@bool/enable_system_job_service_default"
+251-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+252            android:exported="true"
+252-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+253            android:permission="android.permission.BIND_JOB_SERVICE" />
+253-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+254        <service
+254-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+255            android:name="androidx.work.impl.foreground.SystemForegroundService"
+255-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+256            android:directBootAware="false"
+256-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+257            android:enabled="@bool/enable_system_foreground_service_default"
+257-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+258            android:exported="false" />
+258-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+259
+260        <receiver
+260-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+261            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+261-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+262            android:directBootAware="false"
+262-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+263            android:enabled="true"
+263-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+264            android:exported="false" />
+264-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+265        <receiver
+265-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+266            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+266-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+267            android:directBootAware="false"
+267-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+268            android:enabled="false"
+268-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+269            android:exported="false" >
+269-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+270            <intent-filter>
+270-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+271                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+271-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+271-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+272                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+272-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+272-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+273            </intent-filter>
+274        </receiver>
+275        <receiver
+275-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+276            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+276-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+277            android:directBootAware="false"
+277-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+278            android:enabled="false"
+278-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+279            android:exported="false" >
+279-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+280            <intent-filter>
+280-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+281                <action android:name="android.intent.action.BATTERY_OKAY" />
+281-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+281-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+282                <action android:name="android.intent.action.BATTERY_LOW" />
+282-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+282-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+283            </intent-filter>
+284        </receiver>
+285        <receiver
+285-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+286            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+286-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+287            android:directBootAware="false"
+287-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+288            android:enabled="false"
+288-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+289            android:exported="false" >
+289-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+290            <intent-filter>
+290-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+291                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+291-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+291-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+292                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+292-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+292-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+293            </intent-filter>
+294        </receiver>
+295        <receiver
+295-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+296            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+296-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+297            android:directBootAware="false"
+297-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+298            android:enabled="false"
+298-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+299            android:exported="false" >
+299-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+300            <intent-filter>
+300-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+301                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+301-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+301-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+302            </intent-filter>
+303        </receiver>
+304        <receiver
+304-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+305            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+305-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+306            android:directBootAware="false"
+306-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+307            android:enabled="false"
+307-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+308            android:exported="false" >
+308-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+309            <intent-filter>
+309-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+310                <action android:name="android.intent.action.BOOT_COMPLETED" />
+310-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:31:17-79
+310-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:31:25-76
+311                <action android:name="android.intent.action.TIME_SET" />
+311-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+311-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+312                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+312-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+312-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+313            </intent-filter>
+314        </receiver>
+315        <receiver
+315-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+316            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+316-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+317            android:directBootAware="false"
+317-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+318            android:enabled="@bool/enable_system_alarm_service_default"
+318-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+319            android:exported="false" >
+319-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+320            <intent-filter>
+320-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+321                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+321-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+321-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+322            </intent-filter>
+323        </receiver>
+324        <receiver
+324-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+325            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+325-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+326            android:directBootAware="false"
+326-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+327            android:enabled="true"
+327-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+328            android:exported="true"
+328-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+329            android:permission="android.permission.DUMP" >
+329-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+330            <intent-filter>
+330-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+331                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+331-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+331-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+332            </intent-filter>
+333        </receiver>
+334
+335        <provider
+335-->[com.squareup.picasso:picasso:2.71828] C:\Users\Flutter\.gradle\caches\transforms-3\63fb1ae70a57046a7fd1d831b7f66a7f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+336            android:name="com.squareup.picasso.PicassoProvider"
+336-->[com.squareup.picasso:picasso:2.71828] C:\Users\Flutter\.gradle\caches\transforms-3\63fb1ae70a57046a7fd1d831b7f66a7f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+337            android:authorities="com.erinet.erinet_app.com.squareup.picasso"
+337-->[com.squareup.picasso:picasso:2.71828] C:\Users\Flutter\.gradle\caches\transforms-3\63fb1ae70a57046a7fd1d831b7f66a7f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+338            android:exported="false" />
+338-->[com.squareup.picasso:picasso:2.71828] C:\Users\Flutter\.gradle\caches\transforms-3\63fb1ae70a57046a7fd1d831b7f66a7f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+339
+340        <service
+340-->[androidx.room:room-runtime:2.2.5] C:\Users\Flutter\.gradle\caches\transforms-3\155e0ac8599c055a84c5726d00973d3b\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+341            android:name="androidx.room.MultiInstanceInvalidationService"
+341-->[androidx.room:room-runtime:2.2.5] C:\Users\Flutter\.gradle\caches\transforms-3\155e0ac8599c055a84c5726d00973d3b\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+342            android:directBootAware="true"
+342-->[androidx.room:room-runtime:2.2.5] C:\Users\Flutter\.gradle\caches\transforms-3\155e0ac8599c055a84c5726d00973d3b\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+343            android:exported="false" /> <!-- 小米推送 -->
+343-->[androidx.room:room-runtime:2.2.5] C:\Users\Flutter\.gradle\caches\transforms-3\155e0ac8599c055a84c5726d00973d3b\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+344        <service
+344-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:27:9-32:46
+345            android:name="com.xiaomi.push.service.XMJobService"
+345-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:28:13-64
+346            android:enabled="true"
+346-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:29:13-35
+347            android:exported="false"
+347-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:30:13-37
+348            android:permission="android.permission.BIND_JOB_SERVICE"
+348-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:31:13-69
+349            android:process=":pushservice" /> <!-- FCM推送 -->
+349-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:32:13-43
+350        <service
+350-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:35:9-41:19
+351            android:name="im.zego.zpns.internal.receiver.FCMMessageService"
+351-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:36:13-76
+352            android:exported="false" >
+352-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:37:13-37
+353            <intent-filter>
+353-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:38:13-40:29
+354                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+354-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:39:17-78
+354-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:39:25-75
+355            </intent-filter>
+356        </service>
+357        <service
+357-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:42:9-46:46
+358            android:name="com.xiaomi.push.service.XMPushService"
+358-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:43:13-65
+359            android:enabled="true"
+359-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:44:13-35
+360            android:exported="true"
+360-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:45:13-36
+361            android:process=":pushservice" />
+361-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:46:13-43
+362        <service
+362-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:47:9-50:39
+363            android:name="com.xiaomi.mipush.sdk.PushMessageHandler"
+363-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:48:13-68
+364            android:enabled="true"
+364-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:49:13-35
+365            android:exported="true" />
+365-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:50:13-36
+366        <service
+366-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:51:9-54:39
+367            android:name="com.xiaomi.mipush.sdk.MessageHandleService"
+367-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:52:13-70
+368            android:enabled="true"
+368-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:53:13-35
+369            android:exported="true" />
+369-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:54:13-36
+370
+371        <receiver
+371-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:56:9-64:20
+372            android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver"
+372-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:57:13-83
+373            android:exported="true" >
+373-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:58:13-36
+374            <intent-filter>
+374-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:59:13-63:29
+375                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+375-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+375-->[androidx.work:work-runtime:2.7.1] C:\Users\Flutter\.gradle\caches\transforms-3\b5d03bc123d0b973c47a690424759932\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+376
+377                <category android:name="android.intent.category.DEFAULT" />
+377-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:29:17-76
+377-->[:awesome_notifications] C:\Users\Flutter\Documents\GitHub\erinet_app\build\awesome_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:29:27-73
+378            </intent-filter>
+379        </receiver>
+380        <receiver
+380-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:65:9-72:20
+381            android:name="com.xiaomi.push.service.receivers.PingReceiver"
+381-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:66:13-74
+382            android:exported="false"
+382-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:67:13-37
+383            android:process=":pushservice" >
+383-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:68:13-43
+384            <intent-filter>
+384-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:69:13-71:29
+385                <action android:name="com.xiaomi.push.PING_TIMER" />
+385-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:70:17-69
+385-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:70:25-66
+386            </intent-filter>
+387        </receiver>
+388        <receiver
+388-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:73:9-85:20
+389            android:name="im.zego.zpns.internal.receiver.XiaoMiMessageReceiver"
+389-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:74:13-80
+390            android:exported="true" >
+390-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:75:13-36
+391            <intent-filter>
+391-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:76:13-78:29
+392                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE" />
+392-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:77:17-76
+392-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:77:25-73
+393            </intent-filter>
+394            <intent-filter>
+394-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:79:13-81:29
+395                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED" />
+395-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:80:17-76
+395-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:80:25-73
+396            </intent-filter>
+397            <intent-filter>
+397-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:82:13-84:29
+398                <action android:name="com.xiaomi.mipush.ERROR" />
+398-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:83:17-66
+398-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:83:25-63
+399            </intent-filter>
+400        </receiver> <!-- 小米推送 -->
+401        <!-- 华为推送 -->
+402        <meta-data
+402-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:90:9-92:37
+403            android:name="com.huawei.hms.client.channel.androidMarket"
+403-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:91:13-71
+404            android:value="false" />
+404-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:92:13-34
+405
+406        <service
+406-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:94:9-100:19
+407            android:name="im.zego.zpns.internal.receiver.HuaWeiMessageService"
+407-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:95:13-79
+408            android:exported="true" >
+408-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:96:13-36
+409            <intent-filter>
+409-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:97:13-99:29
+410                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+410-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:98:17-81
+410-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:98:25-78
+411            </intent-filter>
+412        </service> <!-- 华为推送 -->
+413        <!-- OPPO推送 -->
+414        <service
+414-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:105:9-113:19
+415            android:name="im.zego.zpns.internal.receiver.OppoDataMessage"
+415-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:106:13-74
+416            android:exported="true"
+416-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:107:13-36
+417            android:permission="com.heytap.mcs.permission.SEND_PUSH_MESSAGE" >
+417-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:108:13-77
+418            <intent-filter>
+418-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:109:13-112:29
+419                <action android:name="com.heytap.mcs.action.RECEIVE_MCS_MESSAGE" />
+419-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:110:17-84
+419-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:110:25-81
+420                <action android:name="com.heytap.msp.push.RECEIVE_MCS_MESSAGE" />
+420-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:111:17-82
+420-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:111:25-79
+421            </intent-filter>
+422        </service>
+423        <service
+423-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:114:9-121:19
+424            android:name="im.zego.zpns.internal.receiver.OppoCompatibleDataService"
+424-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:115:13-84
+425            android:exported="true"
+425-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:116:13-36
+426            android:permission="com.coloros.mcs.permission.SEND_MCS_MESSAGE" >
+426-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:117:13-77
+427            <intent-filter>
+427-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:118:13-120:29
+428                <action android:name="com.coloros.mcs.action.RECEIVE_MCS_MESSAGE" />
+428-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:119:17-85
+428-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:119:25-82
+429            </intent-filter>
+430        </service> <!-- OPPO推送 -->
+431        <!-- VIVO push应用定义消息receiver声明 -->
+432        <receiver
+432-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:126:9-134:20
+433            android:name="im.zego.zpns.internal.receiver.VivoMessageReceiver"
+433-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:127:13-78
+434            android:exported="false" >
+434-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:128:13-37
+435            <intent-filter>
+435-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:129:13-133:29
+436
+437                <!-- 接收push消息 -->
+438                <action android:name="com.vivo.pushclient.action.RECEIVE" />
+438-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:132:17-77
+438-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:132:25-74
+439            </intent-filter>
+440        </receiver>
+441
+442        <service
+442-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:136:9-139:71
+443            android:name="com.vivo.push.sdk.service.CommandClientService"
+443-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:137:13-74
+444            android:exported="true"
+444-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:138:13-36
+445            android:permission="com.push.permission.UPSTAGESERVICE" />
+445-->[im.zego:zpns:2.3.0] C:\Users\Flutter\.gradle\caches\transforms-3\68823681ab0f3693f046fc6587beaa4d\transformed\jetified-zpns-2.3.0\AndroidManifest.xml:139:13-68
+446    </application>
+447
+448</manifest>
