@@ -29,3 +29,4 @@ const String kConnectCallScreen = "/CONNECT_CALL_SCREEN";
 const String kPending = "/PENDING";
 const String kStartConnectingCallScreen = "/START_CONNECTING_CALL_SCREEN";
 const String kStartCallingScreen = "/START_CALLING_SCREEN";
+const String kLiveCalling = "/LIVE_CALLING";

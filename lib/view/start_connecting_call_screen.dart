@@ -1,6 +1,7 @@
 import 'package:erinet_app/components/text_field.dart';
 import 'package:erinet_app/utils/assets_utils.dart';
 import 'package:erinet_app/utils/utils.dart';
+import 'package:erinet_app/view/live_call.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_phone_direct_caller/flutter_phone_direct_caller.dart';
 import 'package:get/get.dart';
@@ -28,7 +29,8 @@ class StartConnectingCallScreen extends StatelessWidget {
   StartConnectingCallScreen({Key? key}) : super(key: key);
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
 
-  final callingId = TextEditingController();
+ // final callingId = TextEditingController();
+  final callingId1 = TextEditingController(text: 'group_call_id');
 
 
   // ZegoEngineProfile profile = ZegoEngineProfile(
@@ -98,7 +100,7 @@ class StartConnectingCallScreen extends StatelessWidget {
             width: Get.width,
             text: startConnectingSUtil,
             onPressed: () =>
-          Get.to(CallPage(callingId: callingId.text.toString()))
+          Get.to(CallPage(callingId: callingId1.text.toString()))
               //Get.toNamed(kStartCallingScreen)
         ),
 
@@ -122,7 +124,7 @@ class StartConnectingCallScreen extends StatelessWidget {
           textInputAction: TextInputAction.next,
           keyboardType: TextInputType.phone,
           topLabel: label,
-          controller: callingId
+          controller: callingId1
           //TextEditingController(text: "0800222111"),
         ),
 
@@ -147,10 +149,10 @@ class CallPage extends StatelessWidget {
             callID: callingId,
             userID: localUserID,
             userName: 'user_$localUserID',
-            config: ZegoUIKitPrebuiltCallConfig.oneOnOneVoiceCall()
-              ..onOnlySelfInRoom = (context){
-                Navigator.pop(context);
-              }
+            config: ZegoUIKitPrebuiltCallConfig.groupVoiceCall()
+              // ..onOnlySelfInRoom = (context){
+              //   Navigator.pop(context);
+              // }
 
         )
     );

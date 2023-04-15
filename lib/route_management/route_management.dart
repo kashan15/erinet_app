@@ -7,6 +7,7 @@ import '../view/bank_transfer_proof_screen.dart';
 import '../view/connect_call_screen.dart';
 import '../view/current_bidding_screen.dart';
 import '../view/deactivate_account_screen.dart';
+import '../view/live_call.dart';
 import '../view/my_notification_screen.dart';
 import '../view/about_screen.dart';
 import '../view/bank_transfer_screen.dart';
@@ -179,6 +180,11 @@ class RouteManagement {
       GetPage(
         name: kStartCallingScreen,
         page: () =>  StartCallingScreen(),
+        binding: ControllerBinding(),
+      ),
+      GetPage(
+        name: kLiveCalling,
+        page: () =>  LiveCalling(callingId: '',),
         binding: ControllerBinding(),
       ),
     ];

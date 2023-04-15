@@ -1,4 +1,5 @@
 import 'package:erinet_app/components/custom_popup_bar.dart';
+import 'package:erinet_app/utils/route_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -78,7 +79,8 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                   child: Button(
                     width: sizeW(280),
                     text: "Get Started",
-                    // onPressed: ()=> Get.offAndToNamed(kOnBoardingScreen),
+                    //onPressed: ()=> Get.offAndToNamed(kOnBoardingScreen),
+
                     onPressed: ()=>
                         showDialog(
                             context: context,
