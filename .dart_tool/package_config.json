@@ -2,6 +2,12 @@
   "configVersion": 2,
   "packages": [
     {
+      "name": "agora_rtc_engine",
+      "rootUri": "file:///C:/Users/Flutter/AppData/Local/Pub/Cache/hosted/pub.dev/agora_rtc_engine-6.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
       "name": "args",
       "rootUri": "file:///C:/Users/Flutter/AppData/Local/Pub/Cache/hosted/pub.dev/args-2.4.0",
       "packageUri": "lib/",
@@ -304,6 +310,12 @@
     {
       "name": "intl",
       "rootUri": "file:///C:/Users/Flutter/AppData/Local/Pub/Cache/hosted/pub.dev/intl-0.17.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "iris_event",
+      "rootUri": "file:///C:/Users/Flutter/AppData/Local/Pub/Cache/hosted/pub.dev/iris_event-2.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -638,7 +650,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2023-04-15T10:58:43.968727Z",
+  "generated": "2023-04-15T11:55:43.649430Z",
   "generator": "pub",
   "generatorVersion": "2.19.4"
 }
